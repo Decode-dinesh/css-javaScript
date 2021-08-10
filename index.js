@@ -78,17 +78,6 @@ function countries(obj) {
     <p>Capital : ${obj.capital}</p>`
     country.append(header);
 
-    // const para1 = document.createElement("p");
-    // para1.innerHTML = `<b>Population: </b>` + obj.population;
-    // country.append(para1);
-
-    // const para2 = document.createElement("p");
-    // para2.innerHTML = `<b>Region: </b>` + obj.region;
-    // country.append(para2);
-
-    // const para3 = document.createElement("p");
-    // para3.innerHTML = `<b>Capital: </b>` + obj.capital;
-    // country.append(para3);
 }
 
 for (let i = 0; i < obj.length; i++) {
