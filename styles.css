@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(235, 251, 255);
+    padding: 10px;
+    display: inline;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+#main-div {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-left: 10rem;
+}
+
+.main-container {
+    width: 450px;
+    height: 550px;
+    background-color: rgb(235, 235, 235);
+    overflow: hidden;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(102, 100, 100);
+}
+
+.main-container:hover {
+    transform: perspective(100px) translateZ(10px);
+}
+
+.img {
+    width: auto;
+    height: 300px;
+}
+
+.country {
+    width: auto;
+    height: auto;
+    padding: 13px;
+    font-family: sans-serif;
+}
